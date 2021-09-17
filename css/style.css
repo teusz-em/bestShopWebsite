@@ -85,7 +85,6 @@ header .container {
 /*BANNER*/
 
 .banner {
-    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -109,7 +108,114 @@ header .container {
     line-height: 22px;
     color: var(--color-black);
 }
-.banner__btn {
+.banner--btn {
     padding: 22px 157px 23px 157px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
+}
+
+.banner__img{
+    display: block;
+}
+
+/*STATS*/
+
+main .stats__container {
+    height: 531px;
+    width: 856px;
+    margin: 0 auto;
+}
+
+div .stats__container {
+    display: flex;
+    justify-content: space-between;
+}
+.stats__head {
+    text-align: center;
+    font-family: var(--font-ral);
+    font-weight: var(--font-reg);
+    font-size: 36px;
+    line-height: 42px;
+    color: var(--color-black);
+    padding: 100px;
+}
+
+.stats__art {
+    max-width: 286px;
+    text-align: center;
+    position: relative;
+}
+
+.stats__art__numb {
+    padding: 20px;
+    text-align: center;
+    font-family: var(--font-ral);
+    font-weight: var(--font-extra-bold);
+    font-size: 20px;
+    line-height: 24px;
+    color: var(--color-black);
+    display: inline-block;
+}
+
+.stats__art__text {
+    text-align: center;
+    font-family: var(--font-ral);
+    font-weight: var(--font-reg);
+    font-size: 17px;
+    line-height: 20px;
+    color: var(--color-grey);
+}
+.stats__art__circle1 {
+    height: 62px;
+    width: 62px;
+    background-color: var(--color-redish);
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+.person{
+    height: 52px;
+    width: 44px;
+    margin-top: 2px;
+    margin-left: 30px;
+    display: block;
+    overflow: hidden;
+    position: absolute;
+}
+
+.stats__art__circle2 {
+    height: 62px;
+    width: 62px;
+    background-color: var(--color-primary);
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+}
+.eye{
+    height: 36px;
+    width: 65px;
+    margin: 15px 0 0 20px;
+    display: block;
+    overflow: hidden;
+    position: absolute;
+
+}
+.stats__art__circle3 {
+    height: 62px;
+    width: 62px;
+    background-color: var(--color-green);
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+}
+.catalog {
+    height: 48px;
+    width: 52px;
+    margin-top: 3px;
+    margin-left: 30px;
+    display: block;
+    overflow: hidden;
+    position: absolute;
 }
