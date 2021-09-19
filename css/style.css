@@ -111,6 +111,10 @@ header .container {
 .banner--btn {
     padding: 22px 157px 23px 157px;
     margin-bottom: 0;
+    font-family: var(--font-open);
+    font-weight: var(--font-bold);
+    font-size: 16px;
+    line-height: 22px;
 }
 
 .banner__img{
@@ -470,7 +474,7 @@ main .benefits {
 
 .pricing__btn {
     background-color: var(--color-redish);
-    padding: 16px 57px;
+    padding: 14px 75px;
     font-family: var(--font-open);
     font-weight: var(--font-bold);
     line-height: 41px;
@@ -529,7 +533,7 @@ main .benefits {
 
 .pricing__btn2 {
     background-color: var(--color-primary);
-    padding: 16px 64px;
+    padding: 16px 85px;
     font-family: var(--font-open);
     font-weight: var(--font-bold);
     line-height: 41px;
@@ -583,7 +587,7 @@ main .benefits {
 
 .pricing__btn3 {
     background-color: var(--color-green);
-    padding: 16px 57px;
+    padding: 14px 75px;
     font-family: var(--font-open);
     font-weight: var(--font-bold);
     line-height: 41px;
@@ -695,11 +699,12 @@ main .benefits {
     color: var(--color-primary);
     text-transform: uppercase;
     padding-bottom: 20px;
+    letter-spacing: 2px;
 }
 
 .form__input__email__phone {
     border: none;
-    border-bottom: 1px solid var(--color-light-grey);
+    border-bottom: 1px solid var(--color-grey);
     background-color: transparent;
     margin-bottom: 45px;
 }
@@ -763,3 +768,40 @@ main .benefits {
     border: var(--color-primary) solid 2px;
     box-shadow: var(--color-primary-shadow) 5px 10px 14px;
 }
+
+/*FOOTER*/
+.footer {
+    height: 89px;
+    width: 100%;
+    color: var(--color-white);
+    box-shadow: rgba(0, 0, 0, 0.16) 0 -5px 40px;
+}
+
+
+.footer__container {
+    height: 100%;
+    margin: 0 auto;
+    width: 1352px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__copyright {
+    font-size: 11px;
+    font-family: var(--font-open);
+    line-height: 15px;
+    font-weight: var(--font-reg);
+    color: var(--color-grey);
+}
+
+.footer__socialmedia a{
+    margin-right: 20px;
+    width: 24px;
+    height: 24px;
+}
+
+.footer .menu__logo {
+    padding-bottom: 6px;
+    }
+
